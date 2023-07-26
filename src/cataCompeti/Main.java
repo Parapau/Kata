@@ -13,11 +13,11 @@ import java.util.Scanner;
 public class Main {
 	static Scanner entrada = new Scanner (System.in);
 	public static void main (String args[]) {
-		String pass = "", msg = "siusplau introdueix la llargada dessitjada";
+		String pass = "";
 		char lletra = 0;
 		int llarg = 0, rand = 0;
 
-		System.out.println(msg);
+		System.out.println("Siusplau introdueix la llargada dessitjada");
 		llarg = numeros();
 		for (int i = 0; i < llarg; i++){
 			lletra = (char) ascii();
